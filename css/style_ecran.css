@@ -1,0 +1,442 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+/* general */
+
+html {
+    font-size: 2vw;
+}
+body
+{
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #1D1D1B;
+}
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+.petit, .petit_tab {
+    display: none;
+}
+
+
+
+
+/* header */
+
+.b{
+    border: 1px red solid
+}
+.top {
+    background-color: #1D1D1B;
+    width: 100vw;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.top_w {
+    padding: 2vw;
+    text-align: center;
+}
+.top .top_w>a {
+    color: #BEBEB6;
+}
+#contactOpen, #contactClose {
+    display: none;
+    cursor: pointer;
+}
+#contactform a {
+    color: #BEBEB6;
+}
+
+.top .titre{
+    background-color: #1D1D1B;
+    margin: auto;
+    padding: 2vw;
+    text-align: center;
+}
+.top img{
+    height: 3vw;
+}
+.bord_w
+{
+    border: #1D1D1B 0.6vw solid;
+}
+.bord_b
+{
+    border: #83CFF4 0.6vw solid;
+}
+#portrait
+{
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 6vw;
+    right: 6vw;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    background: url(../img/portrait.png) no-repeat center;
+    background-size: 19vw 17vw;
+}
+
+/* main */
+
+main 
+{
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 4vw;
+}
+.sect_cv
+{
+    margin: 2.4vw 0;
+    font-size: 0.7rem;
+    /* border: orange 1px solid; */
+}
+
+
+section > div 
+{
+    /* border: olive 1px solid; */
+    width: 40vw;
+    padding: 2vw 3vw 3vw 5vw;
+}
+
+.title 
+{
+    height: 2.5vw;
+    width: 90%;
+    background-color: white;
+    transition: background-color 1s;
+}
+
+.title:hover, .title:hover .carrebox
+{
+    background-color: #83CFF4;
+    cursor: pointer;
+}
+
+#exper .titletxt, #compet .titletxt, #hobbi .titletxt
+{
+    float: right;
+} 
+#exper .carrebox, #compet .carrebox, #hobbi .carrebox
+{
+    float: right;
+    margin-left: 5%;
+}
+#profil .titletxt, #format .titletxt, #speci .titletxt, #lang .titletxt
+{
+    float: left;
+}
+ 
+#profil .carrebox, #format .carrebox, #speci .carrebox, #lang .carrebox
+{
+    float: left;
+    margin-right: 5%;
+}
+.carrebox 
+{
+    height: 100%;
+    width: 10%;
+    background-color: #1D1D1B;
+    transition: background-color 0.5s;    
+}
+.titletxt
+{
+    display: block;
+    height: 100%;
+    width: 85%;
+    border-bottom: #1D1D1B 1px solid;
+}
+
+
+
+.titletxt img
+{
+    height: 100%;
+}
+.appear
+{    
+    transition: all 0.5s;
+}
+#profil
+{
+    margin: 0 10vw 0 0;
+}
+#s_format li    
+{
+    display: flex;
+    padding-top: 1.5vw;
+}
+#s_format img
+{
+    width: 2%;
+    margin-right: 2.4vw;
+}
+/* .futur
+{
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.futur:hover
+{
+    opacity: 1;
+} */
+#s_exper li
+{
+    display: flex;
+    align-items: flex-start;
+    padding: 1.5vw 0;
+}
+#s_exper img
+{
+    width: 5%;
+    margin-right: 2vw;
+}
+#s_speci img
+{
+    margin: 1vw 0.5vw;
+    width: 30%;
+}
+#s_compet li
+{
+    display: flex;
+    align-items: center;
+    padding: 1.5vw 0;
+}
+#s_compet div
+{
+    width: 50%;
+}
+#s_compet img
+{
+    width: 10%;
+    float: left;
+    margin-left: 1vw;
+}
+#s_lang img
+{
+    width: 32%;
+    margin: 0.5vw 0;
+}
+#s_hobbi img
+{
+    width: 32%;
+    margin: 0.5vw 0;
+}
+/* ---------- layer contact et formulaire---------*/
+
+.top .top_c>a {
+    color: #BEBEB6;
+}
+.top .top_c>a:hover {
+    color: #83CFF4;
+}
+
+#contactform a {
+    color: #BEBEB6;
+}
+#contactform a:hover {
+    color: #83CFF4;
+}
+#contactform > .top{
+    display: none;
+}
+#contactform
+{
+    position: relative;
+    top: 0;
+    border-radius: 0 ;
+    background: #1D1D1B;
+    color: #BEBEB6;
+    z-index: 10;
+}
+
+.header_c
+{
+    height: 2vw;
+    padding: 2vw 0 2vw 0;
+    width: 95%;
+    background-color: #1D1D1B;
+}
+#carrebox_c 
+{
+    height: 100%;
+    width: 4vw;
+    float: left;
+    background: #83CFF4;
+    margin: 0 4.8vw 0 0;
+}
+#title_c
+{
+    display: flex;
+    float: left;
+    width: 85%;
+    height: 100%;
+    border-bottom: #83CFF4 1px solid;
+}
+#title_c img
+{
+    height: 80%;
+}
+
+#s_contactform > form > p
+{
+    position: relative;
+    display: flex;
+}
+/* formulaire */
+.input_f
+{
+    width: 90%;
+    padding: 1.5% 5%;
+    margin: 0 0 5% 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #BEBEB6;
+    border: none;
+}
+textarea
+{
+    height: 4rem;
+}
+
+[type="checkbox"] 
+/* cache la checkbox sans la rendre invisible aux lecteurs d'écran */
+{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+[type="checkbox"] + label
+{
+    position: relative; /* permet de positionner la checkbox */
+    padding-left: 3vw; /* place pour la checkbox */
+    font-size: 0.5rem;
+    cursor: pointer;
+}
+/* aspect de la case */
+[type="checkbox"]:not(checked) + label::before,
+[type="checkbox"]:checked + label::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.5vw;
+    height: 1.5vw;
+    border: 0.2vw solid #575751;
+    background-color: #BEBEB6;
+    transition: all .275s;
+}
+/* Aspect de la coche */
+[type="checkbox"]:not(checked) + label::after,
+[type="checkbox"]:checked + label::after
+{
+    content: '';
+    position: absolute;
+    left: 1.1vw;
+    top: 0.4vw;
+    width: 0.5vw;
+    height: 1.2vw;
+    border: solid white;
+    border-width: 0 0.2vw 0.5vw 0;
+    transition: all .2s;
+}
+/* Aspect non cochée */
+[type="checkbox"]:not(:checked) + label::after 
+{
+	opacity: 0;
+	transform: scale(0) rotate(0);
+}
+/* Aspect cochée */
+[type="checkbox"]:checked + label::after 
+{
+	opacity: 1;
+	transform: scale(1) rotate(45deg);
+}
+
+.requi
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 4vw 0 0;
+}
+.requi>p
+{
+    font-size: 0.5rem;
+    color: #83CFF4;
+    margin: auto;
+    text-align: center;
+}
+.btn
+{
+    
+    padding: 0.5vw 0.8vw;
+    border: none;
+    background-color: #575751;
+    color: white;
+    font-family: inherit;
+    font-size: 0.7rem;
+}
+.btn:hover
+{
+    background-color: #83CFF4;
+    color: #1D1D1B;
+    cursor: pointer;
+}
+.wrap_addr
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* padding: 1vw 3vw 4.8vw 9.6vw; */
+    font-size: 0.5rem;
+}
+.wrap_addr>ul
+{
+    display: flex;
+}
+.addr
+{
+    margin-right: 2vw;
+    border-right: solid 1px #BEBEB6;
+    padding: 0 2vw;
+}
+.wrap_addr>p
+{
+    margin: 2vw 0 0 0;
+    text-align: center;
+    font-size: 0.5rem;    
+}
+
+#contactform>footer
+{
+    text-align: center;
+    padding: 3vw 0;
+    font-size: 0.5rem;
+}
+
+main>footer
+{
+    display: none;
+    width: 100%;
+    color: #575751;
+    text-align: center;
+    bottom: 0;
+    font-size: 0.5rem;
+    margin: auto;
+}
+/* #1D1D1B bleu#83CFF4*/
