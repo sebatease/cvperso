@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T11:01:47.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="M4c3Ur6suxuuNpl3537b" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T11:05:42.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="bUZnIWktUrP0dhpYGnZp" version="17.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,9 +202,6 @@
         </mxCell>
         <mxCell id="cXcOY9eNEaaMnFAnV8CQ-60" value="Accepter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="270" y="640" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cXcOY9eNEaaMnFAnV8CQ-61" value="Valider" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="255" y="740" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cXcOY9eNEaaMnFAnV8CQ-62" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="270" y="477" width="60" height="20" as="geometry" />
