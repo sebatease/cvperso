@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T12:58:41.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="QgEkgZrnw57Mm34hBIn1" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T13:00:59.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="7h8O5VpQ0KVdPeIc84lE" version="17.5.0" type="github">
   <diagram id="iWKNTOUgpukIIGYLg3hr" name="Page-1">
     <mxGraphModel dx="865" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="251" y="40" width="326" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GADvh1nI1tQ5H140N6T1-4" value="Durée du stage :&amp;nbsp;&lt;span&gt;94 jours, environ 20 semaines&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="41" y="90" width="290" height="20" as="geometry" />
+          <mxGeometry x="14" y="112.5" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GADvh1nI1tQ5H140N6T1-5" value="Site FECIT-toolbox.org" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
           <mxGeometry x="14" y="401" width="546" height="30" as="geometry" />
@@ -67,8 +67,11 @@
         <mxCell id="GADvh1nI1tQ5H140N6T1-25" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Gestion/développement des administrations et BDD&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="440" y="199.5" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GADvh1nI1tQ5H140N6T1-26" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Déploiement correction et formation à l&#39;administration&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="GADvh1nI1tQ5H140N6T1-26" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Déploiement, corrections et formation à l&#39;administration&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="440" y="221.5" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GADvh1nI1tQ5H140N6T1-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#1A1A1A;strokeColor=#1A1A1A;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="27.5" width="360" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
