@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T10:01:02.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="6vk-YyZuqLeKm1N3J9ds" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T11:34:54.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="KHUdvvFBsl4DvjA8WsvQ" version="18.2.0" type="github">
   <diagram id="iWKNTOUgpukIIGYLg3hr" name="Page-1">
     <mxGraphModel dx="1865" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,9 +66,6 @@
         </mxCell>
         <mxCell id="GADvh1nI1tQ5H140N6T1-26" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Déploiement, corrections et formation à l&#39;administration&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FF0000;flipV=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="207.5" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GADvh1nI1tQ5H140N6T1-28" value="Dates du stage :&amp;nbsp;&lt;span&gt;du 2 novembre 2021 au 10 juin 2022&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="14" y="119.5" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KEkXjReZyDQWfjCHlqGM-1" value="02 novembre" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-25" y="340" width="90" height="20" as="geometry" />
